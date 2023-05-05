@@ -1,0 +1,12 @@
+name: PM1
+tools:
+  bwa: /home/hxy/miniconda3/bin/bwa
+  hisat2: /home/hxy/miniconda3/bin/hisat2
+  stringtie: /home/hxy/miniconda3/bin/stringtie
+  samtools: /home/hxy/miniconda3/bin/samtools
+
+reference:
+  fasta: /media/share/node11/disk3/ylab/hxy/reference/Talaromyces_marneffei/genome/pm1.soft.fasta
+  gtf: /media/share/node11/disk3/ylab/hxy/reference/Talaromyces_marneffei/annotation/pm1_scallop_final.gtf
+  bwa_index: /media/share/node11/disk3/ylab/hxy/reference/Talaromyces_marneffei/index/PM1
+  hisat_index: /media/share/node11/disk3/ylab/hxy/reference/Talaromyces_marneffei/index/PM1
