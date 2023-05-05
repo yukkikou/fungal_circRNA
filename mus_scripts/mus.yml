@@ -1,0 +1,12 @@
+name: Mus
+tools:
+  bwa: /home/hxy/miniconda3/envs/mamba/envs/CIRIquant/bin/bwa
+  hisat2: /home/hxy/miniconda3/envs/mamba/envs/CIRIquant/bin/hisat2
+  stringtie: /home/hxy/miniconda3/envs/mamba/envs/CIRIquant/bin/stringtie
+  samtools: /home/hxy/miniconda3/envs/mamba/envs/CIRIquant/bin/samtools
+
+reference:
+  fasta: /media/share/node10/disk3/ylab/hxy/reference/Mus_musculus/mouse_ref/GRCm38.p4.genome.fa
+  gtf: /media/share/node10/disk3/ylab/hxy/reference/Mus_musculus/mouse_ref/gencode.vM10.annotation.gtf
+  bwa_index: /media/share/node10/disk3/ylab/hxy/reference/Mus_musculus/mouse_ref/GRCm38.p4.genome.fa
+  hisat_index: /media/share/node10/disk3/ylab/hxy/reference/Mus_musculus/mouse_ref/GRCm38.p4.genome.fa
